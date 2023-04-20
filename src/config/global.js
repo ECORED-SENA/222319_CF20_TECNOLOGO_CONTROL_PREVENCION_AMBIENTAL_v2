@@ -1,19 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Monitorear los vertimientos, emisiones y normatividad ambiental',
+    descripcionCurso:
+      'En este material se realizará la explicación del proceso de revisión del cumplimiento de la normativa legal, los objetivos y metas ambientales de la organización, en relación con la evaluación de indicadores de gestión y desempeño ambiental. Los indicadores se establecerán como producto de la verificación del estado de la gestión ambiental, así se favorecerá la mejora continua en pro del desempeño ambiental y protocolos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
   },
   menuPrincipal: {
     menu: [
@@ -30,31 +22,50 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evaluación del desempeño ambiental',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Planificación de la EDA',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Uso de datos e información (Hacer)',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Comunicación y revisión de la EDA',
+            hash: 't_1_3',
           },
         ],
       },
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Informes de cumplimiento ambiental (ICA)',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Verificación de requisitos legales SGA',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Medidas de manejo ambiental',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Informe de revisión ambiental',
         desarrolloContenidos: true,
       },
     ],
@@ -100,32 +111,119 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Introducción',
+      referencia:
+        'Frankinho88. (2011). <em>Paladini-Sistema de Gestión Ambiental</em> [Video]. Youtube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=wPmvBlZS9Nc',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Introducción',
+      referencia:
+        'Gerencia Ambiental Argos. (2018). <em>Indicadores Ambientales</em> [Video]. Youtube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=4vwmrnHc1yA',
+    },
+    {
+      tema: 'Informes de cumplimiento ambiental ICA',
+      referencia:
+        'Ministerio de Medio Ambiente, Subdirección de Licencias Ambientales (2018). <em>Sección 2. Apendice 1. Informes de Cumplimiento Ambiental (ICA).</em> ',
+      tipo: 'Manual',
+      link:
+        'http://documentacion.ideam.gov.co/openbiblio/bvirtual/005609/DocumentosOffice/Jueves21deNoviembre/ModuloelMunicipioyelmedioAmbiente/HerramientasMetodologicasydeevaluacionparaestudiosambient/Apendice1.pdf',
+    },
+    {
+      tema: 'Verificación de requisitos legales, Sistema de Gestión Ambiental',
+      referencia:
+        'Universidad del Rosario (2017). <em>Lista de chequeo basada en las normas ISO 14001:2015 ISO 26000:2010 para el diagnóstico de la fundación Hospital San Carlos.</em> ',
+      tipo: 'Lista de chequeo',
+      link:
+        'https://repository.urosario.edu.co/bitstream/handle/10336/19862/CortesNino-LinaMarcela--1---2019..pdf?sequence=2',
+    },
+    {
+      tema: 'Verificación de requisitos legales, Sistema de Gestión Ambiental',
+      referencia:
+        'Hereda Consultores (2018). <em>Cuestionario para la realización de auditoría interna de un Sistema de Gestión Ambiental Norma ISO 14001:2015.</em> ',
+      tipo: 'Cuestionario',
+      link:
+        'http://hederaconsultores.com/docs/Check-list-auditor%C3%ADa-ISO-14001-2015.pdf',
+    },
+    {
+      tema: 'Verificación de requisitos legales, Sistema de Gestión Ambiental',
+      referencia:
+        'Universidad Santo Tomás de Aquino (2017). <em>Lista de chequeo del sistema de gestión ambiental (SGA) NTC-ISO 14001:2015.</em> ',
+      tipo: 'Lista de chequeo',
+      link:
+        'https://repository.usta.edu.co/bitstream/handle/11634/12097/2017marianbatista9.pdf?sequence=9&isAllowed=y',
+    },
+    {
+      tema: 'Informe de revisión ambiental',
+      referencia:
+        'Empresas Públicas de Medellín. (2007). <em>Informe ambiental.</em> ',
+      tipo: 'Informe',
+      link:
+        'https://www.epm.com.co/site/Portals/0/centro_de_documentos/inversionistas/EPM_Informe2007_Ambiental.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Benchmark</em>',
+      significado:
+        'punto de referencia contra el cual se pueden hacer comparaciones. (ICONTEC, 2016, p.2)',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Desempeño Ambiental',
+      significado:
+        'resultados medibles de la gestión que hace una organización de sus aspectos ambientales. (ICONTEC, 2016, p.2)',
+    },
+    {
+      termino: 'Evaluación del desempeño ambiental EDA',
+      significado:
+        'proceso utilizado para facilitar las decisiones de la dirección con respecto al desempeño ambiental de la organización mediante la selección de indicadores, la recopilación y el análisis de datos la evaluación de la información comparada con los criterios de desempeño ambiental, los informes y comunicaciones, las revisiones periódicas y las mejoras de este proceso. (ICONTEC, 2016, p.2)',
+    },
+    {
+      termino: 'Indicador',
+      significado:
+        'representación medible de la condición o el estado de las operaciones, la gestión o las condiciones. (ICONTEC, 2016, p.2)',
+    },
+    {
+      termino: 'Meta ambiental',
+      significado:
+        'requisito de desempeño detallado, aplicable a la organización o a partes de la misma, que proviene de los objetivos ambientales y que es necesario establecer y cumplir para alcanzar dichos objetivos. (ICONTEC, 2016, p.3)',
+    },
+    {
+      termino: 'Objetivo ambiental',
+      significado:
+        'fin ambiental de carácter general coherente con la política ambiental, que una organización se establece. (ICONTEC, 2016, p.3)',
+    },
+    {
+      termino: 'Sistema de Gestión Ambiental SGA',
+      significado:
+        'la parte del sistema de gestión general utilizada para desarrollar e implementar su política ambiental y manejar sus aspectos ambientales. (ICONTEC, 2016, p.3)',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Gerencia Ambiental de Proyectos Ltda. (s.f.). <em>Plan parcial No. 7.  “Ciudad Lagos de Torca”.</em> ',
+    },
+    {
+      referencia:
+        'ICONTEC (2016) Gestión Ambiental Evaluación del desempeño ambiental, directrices.',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación (2016). <em>Gestión Ambiental Evaluación del desempeño ambiental, directrices</em>',
+    },
+    {
+      referencia:
+        'Ministerio de Medio Ambiente, Subdirección de Licencias Ambientales. (2018). <em>Sección 2. Apéndice 1. Informes de Cumplimiento Ambiental (ICA)</em>',
+      link:
+        'http://documentacion.ideam.gov.co/openbiblio/bvirtual/005609/DocumentosOffice/Jueves21deNoviembre/ModuloelMunicipioyelmedioAmbiente/HerramientasMetodologicasydeevaluacionparaestudiosambient/Apendice1.pdf',
+    },
+    {
+      referencia:
+        'Universidad Francisco de Paula Santander (2012). <em>Evaluación del desempeño ambiental ajustado a la NTC-ISO 14031 en tecnicontrol S.A sede central Chía, Cundinamarca.</em>',
     },
   ],
   creditos: [
@@ -138,9 +236,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Rafael Neftalí Lizcano Reyes	',
+          cargo: 'Responsable ecosistema de producción de RED Santander',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -148,9 +247,46 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Diana Carolina Triana Guarnizo',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Juan Carlos Cárdenas Sánchez',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Gloria Esperanza Ortiz Russi',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Centro agropecuario La Granja - Regional Tolima',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta ',
+          cargo: 'Diseñadora instruccional ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Rafael Neftali Lizcano Reyes',
+          cargo: 'Responsable de Desarrollo Curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -158,17 +294,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Andrea Paola Botello De la Rosa',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: ' ',
           cargo: 'Animador y Producción audiovisual',
           centro: 'Nombre centro de formación',
         },
@@ -178,12 +316,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: ' ',
           cargo: 'Validación y vinculación en plataforma LMS',
           centro: 'Nombre centro formación',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: ' ',
           cargo: 'Validación de contenidos accesibles',
           centro: 'Nombre centro formación',
         },

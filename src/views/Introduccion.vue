@@ -8,6 +8,14 @@
         span
           i.fas.fa-info
       h1 Introducción
+
+    p.mb-4(data-aos="fade") Le damos la bienvenida al componente formativo denominado “Monitorear los vertimientos, emisiones y normatividad ambiental” para iniciar visualice el siguiente video y conozca más:  
+
+    figure(data-aos="fade-down")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      
+
     
 </template>
 
