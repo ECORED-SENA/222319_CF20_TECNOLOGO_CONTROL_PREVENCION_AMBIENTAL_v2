@@ -113,14 +113,14 @@ export default {
     {
       tema: 'Introducción',
       referencia:
-        'Frankinho88. (2011). <em>Paladini-Sistema de Gestión Ambiental</em> [Video]. Youtube. ',
+        'Frankinho88. (2011). <em>Paladini-Sistema de Gestión Ambiental</em>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=wPmvBlZS9Nc',
     },
     {
       tema: 'Introducción',
       referencia:
-        'Gerencia Ambiental Argos. (2018). <em>Indicadores Ambientales</em> [Video]. Youtube. ',
+        'Gerencia Ambiental Argos. (2018). <em>Indicadores Ambientales</em>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=4vwmrnHc1yA',
     },
@@ -129,40 +129,35 @@ export default {
       referencia:
         'Ministerio de Medio Ambiente, Subdirección de Licencias Ambientales (2018). <em>Sección 2. Apendice 1. Informes de Cumplimiento Ambiental (ICA).</em> ',
       tipo: 'Manual',
-      link:
-        'http://documentacion.ideam.gov.co/openbiblio/bvirtual/005609/DocumentosOffice/Jueves21deNoviembre/ModuloelMunicipioyelmedioAmbiente/HerramientasMetodologicasydeevaluacionparaestudiosambient/Apendice1.pdf',
+      descarga: '/downloads/Apendice1.pdf',
     },
     {
       tema: 'Verificación de requisitos legales, Sistema de Gestión Ambiental',
       referencia:
         'Universidad del Rosario (2017). <em>Lista de chequeo basada en las normas ISO 14001:2015 ISO 26000:2010 para el diagnóstico de la fundación Hospital San Carlos.</em> ',
       tipo: 'Lista de chequeo',
-      link:
-        'https://repository.urosario.edu.co/bitstream/handle/10336/19862/CortesNino-LinaMarcela--1---2019..pdf?sequence=2',
+      descarga: '/downloads/CortesNino-LinaMarcela--1---2019.pdf',
     },
     {
       tema: 'Verificación de requisitos legales, Sistema de Gestión Ambiental',
       referencia:
         'Hereda Consultores (2018). <em>Cuestionario para la realización de auditoría interna de un Sistema de Gestión Ambiental Norma ISO 14001:2015.</em> ',
       tipo: 'Cuestionario',
-      link:
-        'http://hederaconsultores.com/docs/Check-list-auditor%C3%ADa-ISO-14001-2015.pdf',
+      descarga: '/downloads/Check-list-auditoria-ISO-14001-2015.pdf',
     },
     {
       tema: 'Verificación de requisitos legales, Sistema de Gestión Ambiental',
       referencia:
         'Universidad Santo Tomás de Aquino (2017). <em>Lista de chequeo del sistema de gestión ambiental (SGA) NTC-ISO 14001:2015.</em> ',
       tipo: 'Lista de chequeo',
-      link:
-        'https://repository.usta.edu.co/bitstream/handle/11634/12097/2017marianbatista9.pdf?sequence=9&isAllowed=y',
+      descarga: '/downloads/2017marianbatista9.pdf',
     },
     {
       tema: 'Informe de revisión ambiental',
       referencia:
         'Empresas Públicas de Medellín. (2007). <em>Informe ambiental.</em> ',
       tipo: 'Informe',
-      link:
-        'https://www.epm.com.co/site/Portals/0/centro_de_documentos/inversionistas/EPM_Informe2007_Ambiental.pdf',
+      descarga: '/downloads/EPM_Informe2007_Ambiental.pdf',
     },
   ],
   glosario: [
@@ -294,6 +289,24 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
           nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador web',
           centro:
@@ -306,9 +319,10 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Actividad didáctica',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -316,14 +330,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Álvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

@@ -19,11 +19,11 @@
     p.mb-4(data-aos="fade") El contenido de los ICA se centra en la verificación del cumplimiento y efectividad de los compromisos que el beneficiario de la licencia ambiental o propietario del proyecto, obra o actividad asumió ante la autoridad ambiental competente. Estos compromisos son asumidos para el beneficiario de la licencia ambiental como tareas ambientales, que, a su vez, en el seguimiento ambiental por parte de la autoridad ambiental respectiva, son traducidos en objetivos. De acuerdo con lo anterior, los ICA deben responder a los objetivos del seguimiento ambiental, que son:
 
     .row.align-items-center.mb-5
-      .col-md-5.mb-3.mb-md-0(data-aos="fade-right")
+      .col-lg-5.mb-3.mb-md-0.d-none.d-lg-block(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema2/img2.png' alt='Imagen decorativa')
-      .col-md-7(data-aos="fade-left")
-        ul.lista-ul--color.color-secundario.ps-3
+          img(src='@/assets/curso/temas/tema2/img2.png' alt='')
+      .col-lg-7(data-aos="fade-left")
+        ul.lista-ul--color.color-secundario.ps-3.fa-ul
           li.mb-md-4 
             i.fas.fa-check
             | Verificación del estado de cumplimiento de los programas que conforman el Plan de Manejo Ambiental (PMA). 
@@ -51,7 +51,7 @@
           .col-md-12(data-aos="fade")
             h3.subt.text-white.mb-3.mx-2 Contenido del informe ICA
 
-          .col-md-8.mb-4.mb-md-0(data-aos="fade-right")
+          .col-lg-8.mb-4.mb-md-0(data-aos="fade-right")
             p El contenido de los informes de cumplimiento ambiental está estipulado por el ministerio de medio ambiente. Contiene, además de los datos representativos de operación y resultados, la relación y diligenciamiento de algunos formatos.
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center
@@ -61,14 +61,14 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
                       h4.mb-1 Contenido de informe cumplimiento ambiental
-                      p.text-small En Anexo_2_ContenidoDeInformeCumplimientoAmbiental, podrá estudiar los elementos fundamentales de un informe y conocer su estructuración. ¡Adelante!
+                      p.text-small Le invitamos a profundizar en el estudio de los elementos fundamentales de un informe y conocer su estructuración mediante el siguiente material descargable.			
                     .col-sm-auto
                       a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_ContenidoDeInformeCumplimientoAmbiental.pdf')" target="_blank")
                         span Descargar
                         i.fas.fa-file-download
-          .col-md-4(data-aos="fade-left")
+          .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/temas/tema2/img3.png' alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema2/img3.png' alt='')
 
 
     h3.subt.text-white.mb-3.mx-2(data-aos="fade") Criterios de indicadores para informe ICA
@@ -76,9 +76,9 @@
     p.mb-4(data-aos="fade") Según lineamientos, los indicadores para el informe de cumplimiento ambiental, ICA, deben reunir algunos atributos imprescindibles. En el siguiente recurso, se los presentamos. Estúdielos atentamente y tome nota de los aspectos más relevantes.
 
     .row.mb-md-3 
-      .col-md-6.mb-4(data-aos="fade-right")
+      .col-md-8.mb-4(data-aos="fade-right")
         .bg-green.h-100.p-4
-          ul.lista-ul--color.color-secundario
+          ul.lista-ul--color.color-secundario.fa-ul.mb-0
             li.mb-md-1 
               i.fas.fa-check
               | Validez.
@@ -115,19 +115,25 @@
             li 
               i.fas.fa-check
               | Facilidad y economía para medir, colectar, probar y/o calcular.
-              
-      .col-md-6.mb-4(data-aos="fade-left")
-        .bg-blue.h-100.p-4
-          ul.lista-ul--color.color-secundario
             li.mb-md-1
               i.fas.fa-check
               | Capacidad de diferenciación entre ciclos o tendencias naturales, y aquellos inducidos por perturbaciones antropogénicas.
-            li.mb-md-1
+            li.mb-md-0
               i.fas.fa-check
               | Se recomienda que los indicadores se establezcan bajo el contexto del mejoramiento continuo (P-H-V-A).
+      .col-md-4.mb-4(data-aos="fade-left")
+        img(src='@/assets/curso/temas/tema2/img5.png' alt='')
+
+    .row      
+      .col-md-3.mb-4(data-aos="fade-right")
+        img(src='@/assets/curso/temas/tema2/img6.png' alt='')    
+      .col-md-9.mb-4(data-aos="fade-left")
+        .bg-blue.h-100.p-4
+          h4 Aspectos sistémicos de los indicadores
+          ul.lista-ul--color.color-secundario.fa-ul
             li.mb-md-1
               i.fas.fa-check
-              | Planeación: misión, visión, objetivos, políticas, estrategias. 
+              span.mb-0 #[b Planeación:] misión, visión, objetivos, políticas, estrategias. 
             li.mb-md-1
               i.fas.fa-check
               | Relación entre objetivos y áreas de éxito. 
@@ -145,13 +151,13 @@
               | Establecimiento del proceso de medición. 
             li.mb-md-1
               i.fas.fa-check
-              | Identificación de oportunidades de mejoramiento: toma de datos frente a metas.
+              span.mb-0 #[b Identificación de oportunidades de mejoramiento:] toma de datos frente a metas.
             li.mb-md-1
               i.fas.fa-check
               | Proceso de toma de decisiones: mejoramiento, replanteamiento, cambio radical. 
             li.mb-md-1
               i.fas.fa-check
-              | Verificación: volver a medir y comparar con las metas, interpretar, retroalimentar. 
+              span.mb-0 #[b Verificación:] volver a medir y comparar con las metas, interpretar, retroalimentar. 
             li
               i.fas.fa-check
               | Estandarización y corrección.
@@ -166,28 +172,28 @@
             p.mb-4(data-aos="fade") En cuanto a los tipos de indicadores propuestos, estos pueden ser obtenidos de las fuentes que se mencionan a continuación:
 
           .row(data-aos="fade-down")
-            .col-md-3
+            .col-lg-3.col-md-6.mb-4.mb-lg-0
               .tarjeta.bg-green3.py-5.px-4.h-100
                 .row.justify-content-center.mb-4
-                  .col-6.col-md-5
+                  .col-4.col-md-5.col-lg-5
                     img.px-md-2(src="@/assets/curso/temas/tema2/ico1.svg")
                 p.text-center Estudio ambiental utilizado para obtener la licencia ambiental o establecer el Plan de Manejo Ambiental.
-            .col-md-3
+            .col-lg-3.col-md-6.mb-4.mb-lg-0
               .tarjeta.bg-green3.py-5.px-4.h-100
                 .row.justify-content-center.mb-4
-                  .col-6.col-md-5
+                  .col-4.col-md-5.col-lg-5
                     img.px-md-2(src="@/assets/curso/temas/tema2/ico2.svg")
                 p.text-center Guías sectoriales para la gestión ambiental, realizadas con el apoyo del Ministerio del Medio Ambiente y/u otra autoridad ambiental.
-            .col-md-3
+            .col-lg-3.col-md-6.mb-4.mb-lg-0
               .tarjeta.bg-green3.py-5.px-4.h-100
                 .row.justify-content-center.mb-4
-                  .col-6.col-md-5
+                  .col-4.col-md-5.col-lg-5
                     img.px-md-2(src="@/assets/curso/temas/tema2/ico3.svg")
                 p.text-center Indicadores establecidos específicamente para áreas, proyectos o sectores por parte de algunas autoridades ambientales.
-            .col-md-3
+            .col-lg-3.col-md-6.mb-4.mb-lg-0
               .tarjeta.bg-green3.py-5.px-4.h-100
                 .row.justify-content-center.mb-4
-                  .col-6.col-md-5
+                  .col-4.col-md-5.col-lg-5
                     img.px-md-2(src="@/assets/curso/temas/tema2/ico4.svg")
                 p.text-center Indicadores corporativos, más exigentes que los establecidos en las normas, propuestos como iniciativas empresariales de producción sostenible. 
 
@@ -203,7 +209,7 @@
             p Son los que permiten establecer las tendencias de la calidad del medio ambiente en el cual se desarrolla el proyecto. Por lo general, los indicadores de calidad ambiental se refieren específicamente a un componente ambiental en particular (aire, agua, suelo, vegetación, fauna, paisaje, cultura y socioeconomía). No obstante, lo anterior, también se pueden seleccionar indicadores muy particulares, debidos a una descarga, aprovechamiento o emisión específica de la cual se tengan indicios. Los indicadores de calidad ambiental se utilizan en los Formatos ICA-4a e ICA -4b.
           .row(titulo="Indicadores de cumplimiento")
             p Los indicadores de cumplimiento están estrictamente relacionados con el desempeño ambiental del proyecto cuyos estándares de cumplimiento, están documentados en los permisos, concesiones y autorizaciones, o en la licencia ambiental, a manera de compromisos. Estos compromisos se establecen, por lo general, como:
-            ul.lista-ul--color.color-secundario.ps-3.ps-md-5
+            ul.lista-ul--color.color-secundario.ps-3.ps-md-5.fa-ul
               li.mb-md-1
                 i.fas.fa-check
                 | Estado de avance o de implementación del PMA. 
@@ -219,7 +225,7 @@
             p Estos indicadores se utilizan en los Formatos ICA-1a, ICA-1b, ICA-2a al ICA-2i, ICA-3a e ICA-3b.
       .col-md-3(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema2/img4.png' alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema2/img4-1.png' alt='')
 
 
 

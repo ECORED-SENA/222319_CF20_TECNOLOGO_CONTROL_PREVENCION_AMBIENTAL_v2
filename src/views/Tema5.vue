@@ -15,19 +15,19 @@
           .row.mb-5
             .bg-gris.p-4(data-aos="fade-down")
               .row.align-items-center.justify-content-center
-                .col-md-2.col-5.mb-3.mb-md-0
-                  figure.px-md-3
-                    img.px-md-4(src='@/assets/curso/temas/tema5/ico.svg' alt='Icono decorativo')
-                .col-md-10
+                .col-lg-2.col-md-2.col-5.mb-3.mb-lg-0
+                  figure.px-lg-3
+                    img.px-lg-4(src='@/assets/curso/temas/tema5/ico.svg' alt='')
+                .col-lg-10.col-md-10
                   p.mb-0 No existe unos requisitos estándar, de cómo debe ser un informe de revisión ambiental, aunque muchas veces estos informes dependen de requisitos según a quien va dirigido ejemplo: informe ICA, informe para una auditoría de ISO 14001 entre otros que pueden tener requisitos específicos.
 
-          .row.align-items-center
-            .col-md-5.mb-3.mb-md-0(data-aos="fade-right")
+          .row.align-items-center.justify-content-center
+            .col-lg-5.col-8.mb-3.mb-lg-0(data-aos="fade-right")
               figure
-                img(src='@/assets/curso/temas/tema5/img.png' alt='Imagen decorativa')
-            .col-md-7(data-aos="fade-left")
+                img(src='@/assets/curso/temas/tema5/img.png' alt='')
+            .col-lg-7(data-aos="fade-left")
               p Las características generales de un informe de revisión ambiental son:
-              ul.lista-ul--color.color-secundario.ps-3
+              ul.lista-ul--color.color-secundario.ps-3.fa-ul
                 li 
                   i.fas.fa-check
                   | Revisión de los indicadores EDA.
