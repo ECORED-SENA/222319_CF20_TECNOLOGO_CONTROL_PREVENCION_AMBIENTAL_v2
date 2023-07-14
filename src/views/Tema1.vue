@@ -254,7 +254,7 @@
           h5.t-green.text-center.mb-4(data-aos="fade")  Selección de Indicadores de Condición Ambiental ICA
           p.mb-4(data-aos="fade") Las organizaciones que pueden identificar una relación entre sus actividades y la condición de algún componente ambiental, podrían optar por desarrollar sus propios ICA como ayuda para evaluar su desempeño ambiental de acuerdo a sus capacidades, intereses y necesidades. 
 
-          .col-lg-4.col-7.mb-4
+          .col-lg-4.col-7.mb-4.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img12.svg' alt='')
           .col-lg-8.mb-4
             AcordionA(tipo="b" clase-tarjeta="tarjeta bg-blue")
@@ -302,7 +302,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.2 Uso de datos e información (Hacer) 
 
-    .row.align-items-center.mb-5
+    .row.align-items-center.justify-content-center.mb-5
       .col-lg-7.mb-3.mb-lg-0(data-aos="fade-right")
         p El siguiente elemento de planificación de la evaluación de desempeño ambiental, EDA, tiene que ver con el uso de los datos y de la información. La información generada por la EDA puede ayudar a una organización a:
         ul.lista-ul--color.color-secundario.ps-3.fa-ul
@@ -332,7 +332,7 @@
     h3.subt.text-white.mb-3.mx-2(data-aos="fade") Recopilación de datos
     p.mb-4(data-aos="fade") Para garantizar que los datos obtenidos sean del tipo y la calidad necesarios para el uso de la EDA, es necesario que la recopilación de los datos esté respaldada por prácticas de control y aseguramiento de la calidad. La organización puede utilizar sus propios datos obtenidos a través de su SGA o datos de otras fuentes, como se puede observar en la siguiente infografía:
 
-    .row.fondo-tema1-2.align-items-center.py-3.mb-5
+    .row.fondo-tema1-2.align-items-center.justify-content-center.py-3.mb-5
       .col-lg-5.col-7.mb-4.mb-lg-0(data-aos="fade-right")
         img.px-1(src='@/assets/curso/temas/tema1/img7.svg' alt='')
       .col-lg-7(data-aos="fade-left")

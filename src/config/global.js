@@ -308,13 +308,13 @@ export default {
         },
         {
           nombre: 'Blanca Flor Tinoco Torres',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador Full-stack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

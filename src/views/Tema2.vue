@@ -75,8 +75,8 @@
 
     p.mb-4(data-aos="fade") Según lineamientos, los indicadores para el informe de cumplimiento ambiental, ICA, deben reunir algunos atributos imprescindibles. En el siguiente recurso, se los presentamos. Estúdielos atentamente y tome nota de los aspectos más relevantes.
 
-    .row.mb-md-3 
-      .col-md-8.mb-4(data-aos="fade-right")
+    .row.justify-content-center.mb-md-3 
+      .col-lg-8.mb-4(data-aos="fade-right")
         .bg-green.h-100.p-4
           ul.lista-ul--color.color-secundario.fa-ul.mb-0
             li.mb-md-1 
@@ -121,13 +121,13 @@
             li.mb-md-0
               i.fas.fa-check
               | Se recomienda que los indicadores se establezcan bajo el contexto del mejoramiento continuo (P-H-V-A).
-      .col-md-4.mb-4(data-aos="fade-left")
+      .col-lg-4.col-md-6.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/img5.png' alt='')
 
-    .row      
-      .col-md-3.mb-4(data-aos="fade-right")
+    .row.justify-content-center      
+      .col-lg-3.col-md-6.order-2.order-lg-1.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/img6.png' alt='')    
-      .col-md-9.mb-4(data-aos="fade-left")
+      .col-lg-9.order-1.order-lg-2.mb-4(data-aos="fade-left")
         .bg-blue.h-100.p-4
           h4 Aspectos sistémicos de los indicadores
           ul.lista-ul--color.color-secundario.fa-ul
