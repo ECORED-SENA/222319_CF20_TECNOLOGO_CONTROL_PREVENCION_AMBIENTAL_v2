@@ -23,7 +23,7 @@
         .row.justify-content-center 
           .col-md-8
             .titulo-sexto.color-primario
-              p.mb-0 #[b Figura 1] Comprensión de la organización y su contexto
+              p.mb-0 #[b Figura 1.] Comprensión de la organización y su contexto
             figure
               img(src='@/assets/curso/temas/tema1/fig1.svg' alt='La figura representa la comprensión de la organización y su contexto a través de diferentes indicadores de condición ambiental. Estas condiciones ingresan a la organización y se llevan a cabo los procesos operacionales. Además, existen flujos de información, flujos de entrada de las operaciones y flujos de decisión. Esto permite identificar el desempeño ambiental que presenta la organización.')
             figcaption.bg-white.mt-4
@@ -34,7 +34,7 @@
         .row.justify-content-center 
           .col-md-7
             .titulo-sexto.color-primario
-              p.mb-0 #[b Figura 2] Esquema de la EDA
+              p.mb-0 #[b Figura 2.] Esquema de la EDA
             figure
               img(src='@/assets/curso/temas/tema1/fig2.svg' alt='La figura representa el esquema de evaluación del desempeño ambiental. El primer paso es la planificación de la evaluación, que implica la selección de indicadores para evaluar el desempeño. El segundo paso es la ejecución, que incluye la recopilación de datos, el análisis, la evaluación, así como la comunicación de los resultados e información obtenida. Por último, es importante realizar la verificación y tomar acciones para mejorar tanto la evaluación como el desempeño ambiental.')
             figcaption.bg-white.mt-4
@@ -183,7 +183,7 @@
 
           .col-md-8.mb-5(data-aos="fade-down")
             .titulo-sexto.color-primario
-              p.mb-0 #[b Figura 3] Operaciones de la organización método entradas y salidas
+              p.mb-0 #[b Figura 3.] Operaciones de la organización método entradas y salidas
             figure.bg-white
               img(src='@/assets/curso/temas/tema1/fig3.svg' alt='La figura representa las operaciones de la organización, con un enfoque centrado en los métodos de entrada y salida. Las entradas incluyen materiales, componentes, productos entrantes, energía y servicios, que son suministrados y utilizados en los procesos operativos. Las salidas consisten en productos, servicios, residuos y emisiones que se distribuyen o se generan como resultado de dichos procesos.')
             figcaption
@@ -225,11 +225,11 @@
 
           .col-md-10.mb-5(data-aos="fade-down")
             .titulo-sexto.color-primario
-              p.mb-0 #[b Figura 4] Visión general en entradas y salidas de las operaciones de la organización
+              p.mb-0 #[b Figura 4.] Visión general en entradas y salidas de las operaciones de la organización
             figure.bg-white
               img(src='@/assets/curso/temas/tema1/fig4.svg' alt='La figura representa una visión general de las entradas y salidas de las operaciones de la organización. En ella se incluyen las entradas como materiales procesados, reciclados y reutilizados, así como los recursos naturales que se utilizan junto con la energía. También se incluyen servicios de apoyo a la organización, como limpieza, jardinería, mantenimiento, transporte, distribución de información y comunicación, seguridad, entre otros, a través de una infraestructura física y equipamiento. Estos elementos son diseñados, instalados y utilizados en los procesos operativos, que se enfocan en la eficiencia operativa, el diseño de procesos, servicios y productos, así como el mantenimiento. Las salidas resultantes incluyen los productos principales, productos derivados, materiales reciclados y reutilizados.')
             figcaption
-              p.mb-0 Nota. ICONTEC (2016) Gestión Ambiental Evaluación del desempeño ambiental, directrices. Figura A.1Operaciones de la organización. p.33
+              p.mb-0 Nota. ICONTEC (2016) Gestión Ambiental Evaluación del desempeño ambiental, directrices. Figura 4. Operaciones de la organización. p.33
 
 
 
@@ -388,7 +388,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.3 Comunicación y revisión de la EDA 
 
-    p.mb-4(data-aos="fade") La información y la comunicación sobre el desempeño ambiental proporciona información útil que describe las mejoras y los logros en el desempeño ambiental. A continuación se presenta la importancia de la comunicación y la información sobre el desempeño ambiental, tanto interna como externamente:
+    p.mb-4(data-aos="fade") La información y la comunicación sobre el desempeño ambiental proporciona información útil que describe las mejoras y los logros en el desempeño ambiental. A continuación, se presenta la importancia de la comunicación y la información sobre el desempeño ambiental, tanto interna como externamente:
 
     .row.mb-5(data-aos="fade-down")
       .col-lg-5.pe-lg-0.me-lg-0
@@ -446,7 +446,7 @@
     .row.align-items-center.mb-4
       .h4.t-green(data-aos="fade") Revisión y mejora de la EDA (Verificar y Actuar)
       .col-md-6.mb-3.mb-md-0(data-aos="fade-right")
-        p la EDA de una organización debería revisarse periódicamente para identificar oportunidades de mejora. Tal revisión puede contribuir a las acciones de la dirección para mejorar el desempeño de la gestión y las operaciones de la organización, y puede dar lugar a mejoras en el estado del medio ambiente. Para aquellas organizaciones que tienen implementado un SGA según la norma ISO 14001, las recomendaciones para mejorar la EDA se deberían incluir en la revisión por la dirección.
+        p La EDA de una organización debería revisarse periódicamente para identificar oportunidades de mejora. Tal revisión puede contribuir a las acciones de la dirección para mejorar el desempeño de la gestión y las operaciones de la organización, y puede dar lugar a mejoras en el estado del medio ambiente. Para aquellas organizaciones que tienen implementado un SGA según la norma ISO 14001, las recomendaciones para mejorar la EDA se deberían incluir en la revisión por la dirección.
       .col-md-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema1/img9.png' alt='')

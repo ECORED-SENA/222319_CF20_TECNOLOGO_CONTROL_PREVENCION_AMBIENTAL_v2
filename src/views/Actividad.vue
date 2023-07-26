@@ -10,12 +10,12 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Utilización efectiva de Indicadores de Desempeño Ambiental 
+          h2 Utilización efectiva de indicadores de desempeño ambiental 
         p.mb-4 Conocer el concepto y la importancia de los indicadores de desempeño ambiental en la gestión de una organización.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Falso o verdadero
+              p.fw-bold.mb-0 Cuestionario
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar

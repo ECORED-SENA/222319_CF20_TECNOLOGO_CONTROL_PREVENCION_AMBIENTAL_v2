@@ -132,7 +132,7 @@ export default {
     {
       tema: 'Informes de cumplimiento ambiental ICA',
       referencia:
-        'Ministerio de Medio Ambiente, Subdirección de Licencias Ambientales (2018). <em>Sección 2. Apendice 1. Informes de Cumplimiento Ambiental (ICA).</em> ',
+        'Ministerio de Medio Ambiente, Subdirección de Licencias Ambientales (2018). <em>Sección 2. Apéndice 1. Informes de Cumplimiento Ambiental (ICA).</em> ',
       tipo: 'Manual',
       descarga: '/downloads/Apendice1.pdf',
     },

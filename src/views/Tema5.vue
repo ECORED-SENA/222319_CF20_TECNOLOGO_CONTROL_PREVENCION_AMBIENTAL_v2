@@ -19,7 +19,7 @@
                   figure.px-lg-3
                     img.px-lg-4(src='@/assets/curso/temas/tema5/ico.svg' alt='')
                 .col-lg-10.col-md-10
-                  p.mb-0 No existe unos requisitos estándar, de cómo debe ser un informe de revisión ambiental, aunque muchas veces estos informes dependen de requisitos según a quien va dirigido ejemplo: informe ICA, informe para una auditoría de ISO 14001 entre otros que pueden tener requisitos específicos.
+                  p.mb-0 No existen unos requisitos estándar, de cómo debe ser un informe de revisión ambiental, aunque muchas veces estos informes dependen de requisitos según a quien va dirigido ejemplo: informe ICA, informe para una auditoría de ISO 14001 entre otros que pueden tener requisitos específicos.
 
           .row.align-items-center.justify-content-center
             .col-lg-5.col-8.mb-3.mb-lg-0(data-aos="fade-right")
